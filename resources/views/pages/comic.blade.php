@@ -8,6 +8,9 @@
     <div class="d-flex flex-column">
         <div class="conteiner-top d-flex">
             <div class="left">
+                <div class="image text-center">
+                    <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="logo">
+                </div>
                 <h3 class="pt-4">title</h3>
                 <div class="d-flex">
                     <div class="green-strip-left d-flex justify-content-between p-2">
