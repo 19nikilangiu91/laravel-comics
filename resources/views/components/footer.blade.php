@@ -45,7 +45,10 @@
     </section>
 
     <section class="footer-down">
-        <button>SIGN-UP NOW!</button>
+        <div class="left d-flex">
+            <button>SIGN-UP NOW!</button>
+        </div>
+        <div class="right d-flex justify-content-center align-items-center">
             <h3><strong>FOLLOW US</strong></h3>
             <ul>
                 <li><a href=""><img src="{{ Vite::asset('resources/img/footer-facebook.png') }}" alt="facebook-logo"></a></li>
@@ -54,5 +57,6 @@
                 <li><a href=""><img src="{{ Vite::asset('resources/img/footer-twitter.png') }}" alt="twitter-logo"></a></li>
                 <li><a href=""><img src="{{ Vite::asset('resources/img/footer-youtube.png') }}" alt="youtube-logo"></a></li>
             </ul>
+        </div>
     </section>
 </div>
