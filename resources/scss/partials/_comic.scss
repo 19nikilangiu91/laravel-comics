@@ -1,0 +1,78 @@
+.background-comic {
+    background-color: red;
+    width: 100%;
+
+    .strip {
+        background-color: #0282f9;
+        width: 100%;
+        height: 50px;
+    }
+}
+
+.conteiner-top {
+    background-color: white;
+    width: 60%;
+    margin: 0 auto;
+
+    .left {
+        background-color: yellow;
+        width: 70%;
+
+        .green-strip-left {
+            background-color: green;
+            height: 50px;
+            width: 70%;
+            border-bottom: 1px solid black;
+        }
+
+        .green-strip-right {
+            background-color: green;
+            height: 50px;
+            width: 30%;
+            border-left: 1px solid black;
+            border-bottom: 1px solid black;
+
+        }
+    }
+
+    .right {
+        background-color: green;
+        width: 30%;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.container-bottom {
+    background-color: lightgrey;
+    width: 100%;
+    margin: 0 auto;
+
+    .middle {
+        background-color: white;
+        width: 60%;
+        margin: 0 auto;
+
+        .talent {
+            width: 50%;
+
+            .talent-content,
+            .art-by-content,
+            .written-by-content {
+                border-bottom: 1px solid black;
+            }
+        }
+
+        .specs {
+            width: 50%;
+
+            .specs-content,
+            .series-content,
+            .us-content {
+                border-bottom: 1px solid black;
+            }
+        }
+    }
+}

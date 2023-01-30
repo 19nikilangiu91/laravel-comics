@@ -10,6 +10,7 @@
 <body>
     @include('components.header')
     @yield('comics_content')
+    @yield('comic_content')
     @include('components.blue-cards')
     @include('components.footer')
 </body>
