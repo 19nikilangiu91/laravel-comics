@@ -9,6 +9,7 @@
 </head>
 <body>
     @include('components.header')
+    @include('components.jumbotron')
     @yield('comics_content')
     @yield('comic_content')
     @include('components.blue-cards')
