@@ -1,0 +1,30 @@
+.container {
+    // Debug
+    background-color: white;
+
+    nav {
+
+        .logo {
+            width: 50%;
+            padding: 10px;
+        }
+
+        ul {
+            list-style: none;
+            margin-right: 10px;
+
+            li a {
+                text-decoration: none;
+                margin-left: 15px;
+                padding-bottom: 50px;
+
+
+                .selected,
+                &:hover {
+                    color: #0282f9;
+                    border-bottom: 10px solid #0282f9;
+                }
+            }
+        }
+    }
+}
