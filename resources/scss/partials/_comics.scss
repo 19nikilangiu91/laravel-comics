@@ -1,0 +1,48 @@
+.background {
+    background-color: black;
+    min-height: 480px;
+
+    .container-comics {
+        // background-color: red;
+        width: 80%;
+        margin: 0px auto;
+        padding-top: 20px;
+
+        .label {
+            background-color: #0282f9;
+            padding: 10px;
+            color: white;
+            position: absolute;
+            top: 70px;
+            left: 50px;
+        }
+
+        .card {
+            margin: 10px 20px;
+            width: 150px;
+            // height: 150px;
+
+            a {
+                text-decoration: none;
+            }
+
+            .image {
+                width: 100%;
+            }
+
+            .text {
+                background-color: yellow;
+            }
+        }
+    }
+
+    .button {
+        width: 10%;
+        margin: 30px auto;
+        padding: 10px;
+        bottom: 50px;
+        text-align: center;
+        background-color: #0282f9;
+        color: white;
+    }
+}
