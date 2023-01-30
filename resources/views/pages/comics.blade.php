@@ -127,6 +127,8 @@
             </a>
         </div>
     </div>
-    <div class="button">LOAD MORE</div>
+    <a href="">
+        <div class="button">LOAD MORE</div>
+    </a>
 </div>
 @endsection
