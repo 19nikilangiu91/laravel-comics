@@ -1,7 +1,7 @@
 @extends('layouts.main-layout')
 
 @section('comics_content')
-<div class="background">
+<div class="background-comics">
     <div class="container-comics d-flex flex-wrap">
         <div class="label">
             <span>CURRENT SERIES</span>
