@@ -9,12 +9,12 @@
         <div class="conteiner-top d-flex">
             <div class="left">
                 <div class="image text-center">
-                    <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="logo">
+                    <img src="https://www.dc.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=-ZFfbpum" alt="logo">
                 </div>
-                <h3 class="pt-4">title</h3>
+                <h3 class="pt-4">Action Comics #1000: The Deluxe Edition</h3>
                 <div class="d-flex">
                     <div class="green-strip-left d-flex justify-content-between p-2">
-                        <span>U.S Price:</span>
+                        <span>U.S Price: $19.99</span>
                         <span>AVAILABLE</span>
                     </div>
                     <div class="green-strip-right text-center p-2">
