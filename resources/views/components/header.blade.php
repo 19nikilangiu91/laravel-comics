@@ -5,7 +5,7 @@
     <nav>
         <ul class="d-flex">
             <li class="mx-2"><a href="">CHARACTERS</a></li>
-            <li class="selected mx-2"><a href="">COMICS</a></li>
+            <li class="selected mx-2"><a href="http://localhost:8000/">COMICS</a></li>
             <li class="mx-2"><a href="">MOVIES</a></li>
             <li class="mx-2"><a href="">TV</a></li>
             <li class="mx-2"><a href="">GAMES</a></li>
