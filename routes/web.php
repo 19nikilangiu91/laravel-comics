@@ -18,7 +18,7 @@ Route::get('/', function () {
     return view('pages.comics');
 });
 
-Route::get('/comic', function () {
+Route::get('comic', function () {
     return view('pages.comic');
 });
 

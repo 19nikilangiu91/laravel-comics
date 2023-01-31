@@ -7,6 +7,7 @@
     <link rel="icon" type="image/x-icon" href={{ Vite::asset('resources/img/favicon.ico') }}>
     <title>Laravel - Comics</title>
     @Vite('resources/js/app.js')
+    @yield('head')
 </head>
 <body>
     @include('components.header')
