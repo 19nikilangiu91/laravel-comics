@@ -225,7 +225,7 @@ $comics = [
         <div class="card-container d-flex flex-wrap">
             @foreach ($comics as $comic)
             <div class="card d-flex flex-column">
-                <a href="">
+                <a href="comic">
                     <div class="image">
                         <img src="{{ $comic['thumb']}}" alt="{{$comic['title']}}">
                     </div>
